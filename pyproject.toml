@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "it-akademie"
+version = "0.1.0"
+description = "IT Akademie"
+authors = ["Jiri Kupka <jiri.kupka@firma.seznam.cz>", "Jiri Lajcok <jiri.lajcok@firma.seznam.cz>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+readchar = "^4.0.3"
+httpx = "^0.23.0"
+pydevd-pycharm = "202.6397.98"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
